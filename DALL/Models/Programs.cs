@@ -15,6 +15,6 @@ namespace DALL.Models
         public DateTime CreatedOn { set; get; }
         public string UpdatedBy { set; get; }
         public DateTime UpdatedOn { set; get; }
-        public int CollegeId { set; get; }
+        public int UniversityId { set; get; }
     }
 }

@@ -3,9 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DALL.Repository
 {
@@ -36,7 +33,7 @@ namespace DALL.Repository
                         CreatedOn = (dr["CreatedOn"] as DateTime?).GetValueOrDefault(),
                         UpdatedOn = (dr["UpdatedOn"] as DateTime?).GetValueOrDefault(),
                         UpdatedBy = dr["UpdatedBy"].ToString(),
-                        CollegeId = (dr["CollegeId"] as int?).GetValueOrDefault()
+                        UniversityId = (dr["UniversityId"] as int?).GetValueOrDefault()
 
                     };
 
