@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\CollegeController.cs" />
     <Compile Include="Controllers\CountryController.cs" />

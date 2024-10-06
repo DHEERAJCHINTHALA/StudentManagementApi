@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryServices\AuthenticationRepositoryServices.cs" />
     <Compile Include="RepositoryServices\CityRepositoryServices.cs" />
     <Compile Include="RepositoryServices\CollegeRepositoryServices.cs" />
     <Compile Include="RepositoryServices\CountryRepositoryServices.cs" />
